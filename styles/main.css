@@ -1,5 +1,11 @@
+@media screen and (max-width: 1024px) {
+  header.mdl-layout__header {
+    display: flex;
+  }
+}
+
 header {
-  background: url(../images/blurred-water.png) center / cover;
+  background: url(../images/hero-image.png) center / cover;
   height: 60vh;
   justify-content: center;
   text-align: center;
@@ -9,22 +15,13 @@ h1{
   color: rgba(255, 255, 255, 0.9);
   font-weight: bold;
 }
-.slogan {
-  font-weight: lighter;
-  color: rgba(255, 255, 255, 0.8);
-  font-size: 1.6rem;
+
+body {
+  padding-bottom: 5rem;
 }
 
 main {
   max-width: 900px;
-}
-
-.project-description {
-  padding-left: 0;
-}
-
-.project img {
-  width: 100%;
 }
 
 footer.mdl-mini-footer {
@@ -37,8 +34,19 @@ footer.mdl-mini-footer {
 
 footer.mdl-mini-footer > ul {
    margin: auto;
+   font-size: 2rem;
  }
 
-body {
-  padding-bottom: 5rem;
+.slogan {
+  font-weight: lighter;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.6rem;
+}
+
+.project img {
+  width: 100%;
+}
+
+.project-description {
+  padding-left: 0;
 }
